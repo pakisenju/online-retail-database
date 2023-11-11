@@ -8,4 +8,6 @@ GROUP BY
     o.id_barang,
     p.nama_barang
 ORDER BY
-    jumlah_pembelian DESC;
+    jumlah_pembelian DESC
+LIMIT    
+3;
